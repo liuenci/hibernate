@@ -16,7 +16,7 @@ public class StoreData {
 		Session session = sessionFactory.openSession();
 		Transaction transaction = session.beginTransaction();
 		Employee e1=new Employee();
-        e1.setId(101);
+        e1.setId(102);
         e1.setFirstName("Max");
         e1.setLastName("Su");
         session.persist(e1);
