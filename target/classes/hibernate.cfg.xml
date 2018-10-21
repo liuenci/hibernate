@@ -12,5 +12,6 @@
         <property name="show_sql">true</property>
         <mapping class="com.cier.pojo.Employee"/>
         <mapping class="com.cier.pojo.User"/>
+        <mapping resource="employee1.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
