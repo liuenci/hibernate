@@ -10,6 +10,6 @@
         <property name="connection.password">JavaL0318.</property>
         <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
         <property name="show_sql">true</property>
-        <mapping resource="employee.hbm.xml"/>  
+        <mapping class="com.cier.pojo.Employee"/>
     </session-factory>
 </hibernate-configuration>
