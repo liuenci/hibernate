@@ -11,5 +11,6 @@
         <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
         <property name="show_sql">true</property>
         <mapping class="com.cier.pojo.Employee"/>
+        <mapping class="com.cier.pojo.User"/>
     </session-factory>
 </hibernate-configuration>
